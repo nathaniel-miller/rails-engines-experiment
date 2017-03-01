@@ -1,5 +1,7 @@
 require "core/engine"
 
-module Core
-  # Your code goes here...
+module Samurai
+  module Core
+    # My codes go here! :)
+  end
 end
