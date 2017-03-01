@@ -5,13 +5,13 @@ require "core/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "core"
-  s.version     = Core::VERSION
-  s.authors     = [""]
+  s.name        = "samurai_core"
+  s.version     = Samurai::Core::VERSION
+  s.authors     = ["Nathaniel Miller"]
   s.email       = ["dukeoflaser@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Core."
-  s.description = "TODO: Description of Core."
+  s.homepage    = "m.ller.io"
+  s.summary     = "Experiment with Rails Engines."
+  s.description = "Experiment with Rails Engines."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
