@@ -1,5 +1,9 @@
-require "contacts/engine"
+require "samurai/contacts/engine"
+require "samurai/contacts"
 
-module Contacts
-  # Your code goes here...
+
+module Samurai
+  module Contacts
+    # Your code goes here...
+  end
 end
