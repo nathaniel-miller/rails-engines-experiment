@@ -1,2 +1,2 @@
-Contacts::Engine.routes.draw do
+Samurai::Core::Engine.routes.draw do
 end
