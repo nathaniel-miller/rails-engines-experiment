@@ -1,4 +1,11 @@
 PATH
+  remote: engines/contacts
+  specs:
+    samurai_contacts (0.1.0)
+      rails (~> 5.0.2)
+      samurai_core
+
+PATH
   remote: engines/core
   specs:
     samurai_core (0.0.1)
@@ -167,6 +174,7 @@ DEPENDENCIES
   listen (~> 3.0.5)
   puma (~> 3.0)
   rails (~> 5.0.2)
+  samurai_contacts!
   samurai_core!
   sass-rails (~> 5.0)
   spring
